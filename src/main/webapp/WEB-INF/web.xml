@@ -1,0 +1,183 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	
+	<servlet>
+		<servlet-name>index</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>
+
+    <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+		<servlet-name>home</servlet-name>
+		<jsp-file>/normal.jsp</jsp-file>
+	</servlet>
+
+    <servlet-mapping>
+    <servlet-name>home</servlet-name>
+    <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+		<servlet-name>registerjsp</servlet-name>
+		<jsp-file>/register.jsp</jsp-file>
+	</servlet>
+
+    <servlet-mapping>
+    <servlet-name>registerjsp</servlet-name>
+    <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+		<servlet-name>loginjsp</servlet-name>
+		<jsp-file>/login.jsp</jsp-file>
+	</servlet>
+
+    <servlet-mapping>
+    <servlet-name>loginjsp</servlet-name>
+    <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+		<servlet-name>adminjsp</servlet-name>
+		<jsp-file>/admin.jsp</jsp-file>
+	</servlet>
+
+    <servlet-mapping>
+    <servlet-name>adminjsp</servlet-name>
+    <url-pattern>/AdminPanel</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+		<servlet-name>sellerjsp</servlet-name>
+		<jsp-file>/seller.jsp</jsp-file>
+	</servlet>
+
+    <servlet-mapping>
+    <servlet-name>sellerjsp</servlet-name>
+    <url-pattern>/SellerPanel</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+		<servlet-name>searchProductjsp</servlet-name>
+		<jsp-file>/searchProduct.jsp</jsp-file>
+	</servlet>
+
+    <servlet-mapping>
+    <servlet-name>searchProductjsp</servlet-name>
+    <url-pattern>/SearchProduct</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+		<servlet-name>showProductjsp</servlet-name>
+		<jsp-file>/showProduct.jsp</jsp-file>
+	</servlet>
+
+    <servlet-mapping>
+    <servlet-name>showProductjsp</servlet-name>
+    <url-pattern>/ViewProduct</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<display-name>Register</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.Register</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogOut</servlet-name>
+		<display-name>LogOut</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.LogOut</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<display-name>Login</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.Login</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>addOperation</servlet-name>
+		<display-name>addOperation</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.addOperation</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deleteUser</servlet-name>
+		<display-name>deleteUser</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.deleteUser</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>suspendUser</servlet-name>
+		<display-name>suspendUser</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.suspendUser</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>buyNow</servlet-name>
+		<display-name>buyNow</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.buyNow</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>orderNow</servlet-name>
+		<display-name>orderNow</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.orderNow</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deleteProduct</servlet-name>
+		<display-name>deleteProduct</display-name>
+		<description></description>
+		<servlet-class>com.entities.servlets.deleteProduct</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/RegisterNow</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogOut</servlet-name>
+		<url-pattern>/LogOut</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/LoginServ</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>addOperation</servlet-name>
+		<url-pattern>/addOperation</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deleteUser</servlet-name>
+		<url-pattern>/deleteUser</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>suspendUser</servlet-name>
+		<url-pattern>/suspendUser</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>buyNow</servlet-name>
+		<url-pattern>/buyNow</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>orderNow</servlet-name>
+		<url-pattern>/orderNow</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>deleteProduct</servlet-name>
+		<url-pattern>/deleteProduct</url-pattern>
+	</servlet-mapping>
+</web-app>
