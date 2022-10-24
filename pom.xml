@@ -7,6 +7,10 @@
 	<name>ecommerce Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
+		
+		<properties>    
+    <java.version>11</java.version>
+</properties>
 
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 		<dependency>
