@@ -41,3 +41,7 @@
 		<finalName>ecommerce</finalName>
 	</build>
 </project>
+
+<properties>
+    <java.version>8</java.version>
+</properties>
